@@ -10,9 +10,9 @@ long long giai_thua(int n) {
 
 int main() {
     int so;
-    printf("Nh?p vào m?t s? nguyên: ");
+    printf("nhap vao 1 so nguyen: ");
     scanf("%d", &so);
-    printf("Giai th?a c?a %d là: %lld\n", so, giai_thua(so));
+    printf("giai thua cua %d la: %lld\n", so, giai_thua(so));
     return 0;
 }
 
