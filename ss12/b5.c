@@ -11,29 +11,28 @@ bool isPrime(int num) {
             return false; 
         }
     }
-
     return true; 
 }
 
 int main() {
     int num1, num2;
 
-    printf("Enter the first integer: ");
+    printf("nhap so dau tien: ");
     scanf("%d", &num1);
 
-    printf("Enter the second integer: ");
+    printf("nhap so thu 2 ");
     scanf("%d", &num2);
 
     if (isPrime(num1)) {
-        printf("%d is a prime number.\n", num1);
+        printf("%d la so nguyen to\n", num1);
     } else {
-        printf("%d is not a prime number.\n", num1);
+        printf("%d kphai la so nguyen to\n", num1);
     }
 
     if (isPrime(num2)) {
-        printf("%d is a prime number.\n", num2);
+        printf("%d la so nguyen to\n", num2);
     } else {
-        printf("%d is not a prime number.\n", num2);
+        printf("%d kphai la so nguyen to\n", num2);
     }
 
     return 0;
